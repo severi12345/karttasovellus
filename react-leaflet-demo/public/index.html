@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Dokumentin tyypin määrittely, joka kertoo selaimelle käyttää HTML5-standardia. -->
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <!-- Määrittelee merkistökoodauksen UTF-8:ksi, joka tukee laajaa kirjoa eri merkkejä. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Viewport-metaelementti, joka ohjeistaa selaimia skaalaamaan sivun oikein mobiililaitteilla.
+         width=device-width asettaa näytön leveyden laitteen näytön leveydeksi.
+         initial-scale=1.0 asettaa alkuperäisen zoomaustason 1:ksi, mikä tarkoittaa ei zoomia. -->
+
+    <title>React Leaflet Demo</title>
+    <!-- Dokumentin otsikko, joka näkyy selaimen välilehdessä. -->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Ulkoinen tyylitiedosto Leaflet-kirjastolle, joka sisältää tarvittavat tyylit kartan näyttämiseen.
+         Tämä on välttämätön Leaflet-kirjaston oikean toiminnan kannalta. -->
+</head>
+<body>
+    <div id="root"></div>
+    <!-- Div-elementti, johon React-sovellus tullaan renderöimään. React skriptit liittävät
+         komponenttinsa tähän elementtiin, jolloin kaikki React-komponentit näkyvät tässä divissä. -->
+</body>
+</html>
